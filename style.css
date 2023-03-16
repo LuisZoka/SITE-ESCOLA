@@ -3,33 +3,53 @@
     padding: 0;
 }
 .cabecalho {background-color: rgb(219, 53, 53);
-color: rgb(243, 243, 243);
+color: rgb(253, 216, 216);
 display: flex;
 justify-content: space-evenly;}
 .cabecalho-imagem{
     width: 15%;
     height: 20%;
 }
+
 li
 {display: inline-block;
- margin: 98px 16px;
+ margin: 100px 16px;
  padding: 30px 30px;
  font-size: 18px;
 }
+
  h1
  {display: inline-block;
     margin: 88px 60px;
     padding: 30px 0;
     font-size: 35px;
  }
+
 h2
  {display: inline-block;
-    margin: 1px 2px;
+    margin: 5px 25px;
     padding: 20px 0;
-    font-size: 30px;   
+    font-size: 40px;   
  }
+
 p
 {
+margin: 7px 30px;
+padding: 4px 20px;    
 font-size: 20px;
-text-indent: 25px;
+text-indent: 20px;
+}
+
+.escola-imagem
+{
+width: 22%;
+}
+.escola
+{
+background-image: linear-gradient(rgb(215, 49, 49),rgb(255, 255, 255));
+color: rgb(26, 3, 3);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
 }
