@@ -8,6 +8,7 @@ display: flex;
 justify-content: space-evenly;
 padding: 20px;
 }
+body{font-family: 'Times New Roman', Times, serif;}
 
 .cabecalho-imagem
 {
@@ -66,17 +67,16 @@ padding: 20px 0;
 {
     width: 40%;
 }
-.aluno1
+.aluno2
 {
-width: 10% ;
-margin: 5px 30px;
-    padding: 20px 0;
-    font-size: 45px; 
+    text-align: center;
+    font-size: 60px; 
 }
+
  .imagem-alunos
  { 
-    width: 30%;
-    height: 50%;
+    width: 50%;
+    height: 60%;
  }
  .estudante-icone
  {
@@ -85,25 +85,15 @@ margin: 5px 30px;
  .estudante-div
  {
 text-align: center;
+
  }
-.aluno2
-{
-    width: 30%;
-    height: 50%;
-}
-.estudante-div2
-{
-    text-align: center;
-}
-.estudante-div3
-{
-    text-align: center;
-}
+
 .nome-aluno
 {
     font-size: 50px;
 }
-.estudante-div4
+.estudante-todos
 {
-    text-align: center;
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
 }
