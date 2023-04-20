@@ -97,3 +97,8 @@ text-align: center;
     display: grid;
     grid-template-columns:25% 25% 25% 25%;
 }
+.rodape
+{
+    background-color: rgb(255, 0, 0);
+    color: rgb(253, 216, 216);
+}
